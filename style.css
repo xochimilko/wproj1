@@ -1,3 +1,9 @@
+body {
+    background-image: url("./pexels-christopher-farrugia-3581878.jpeg");
+    background-attachment: fixed;
+    background-size: contain;
+}
+
 div#builder {
     display: flex;
     flex-direction: row;
@@ -8,9 +14,21 @@ div#builder {
 #pizza {
     margin: 15px auto;
     width: 702px;
-    height: 702px;
+    height: 750px;
     overflow: hidden;
     position: relative;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: scale(.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 #cheese {
@@ -19,7 +37,7 @@ div#builder {
     height: 590px;
     border-radius: 50%;
     background: #f3d255;
-    margin: 55px 0 0 55px;
+    margin: 95px 0 0 55px;
     z-index: 10;
     box-shadow: inset 0 0 200px #d88e24;
 }
@@ -27,14 +45,12 @@ div#builder {
 div#pizza input, div#pizza label {
     float:left;
     cursor: pointer;
+    color: white;
 }
 
 div.hide, div#white, div#red {
     opacity: 0;
-}
-
-div.hide {
-    transition: opacity 0.5s ease-in-out;
+    
 }
 
 div#pizza input {
@@ -43,6 +59,7 @@ div#pizza input {
 
 div#pizza label {
     margin: 0 5px 0 0;
+    font-style: bold;
 }
 
 div.sauce {
@@ -50,7 +67,7 @@ div.sauce {
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    margin: 50px 0 0 50px;
+    margin: 90px 0 0 50px;
     z-index: 10;
     
 }
@@ -66,6 +83,7 @@ div.sauce {
 }
 
 #crust {
+    margin: 40px 0 0 0;
     width: 700px;
     height: 700px;
     border-radius: 50%;
@@ -88,74 +106,93 @@ div.sauce {
     border: 2px solid #871b15;
     text-indent: -9999px;
     color: #fff;
+    animation: pulse 0.5s infinite;
 }
 
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
 div.pep#one {
-    margin: 300px 0 0 60px;
+    margin: 340px 0 0 60px;
 }
 
 div.pep#two {
-    margin: 300px 0 0 177px;
+    margin: 340px 0 0 177px;
 }
 
 div.pep#three {
-    margin: 300px 0 0 295px;
+    margin: 340px 0 0 295px;
 }
 
 div.pep#four {
-    margin: 300px 0 0 415px;
+    margin: 340px 0 0 415px;
 }
 
 div.pep#five {
-    margin: 300px 0 0 540px;
+    margin: 340px 0 0 540px;
 }
 
 div.pep#six {
-    margin: 180px 0 0 115px;
+    margin: 220px 0 0 115px;
 }
 
 div.pep#seven {
-    margin: 180px 0 0 235px;
+    margin: 220px 0 0 235px;
 }
 
 div.pep#eight {
-    margin: 180px 0 0 355px;
+    margin: 220px 0 0 355px;
 }
 
 div.pep#nine {
-    margin: 180px 0 0 475px;
+    margin: 220px 0 0 475px;
 }
 
 div.pep#ten {
-    margin: 70px 0 0 235px;
+    margin: 110px 0 0 235px;
 }
 
 div.pep#eleven {
-    margin: 70px 0 0 355px;
+    margin: 110px 0 0 355px;
 }
 
 div.pep#twelve {
-    margin: 420px 0 0 115px;
+    margin: 460px 0 0 115px;
 }
 
 div.pep#thirteen {
-    margin: 420px 0 0 235px;
+    margin: 460px 0 0 235px;
 }
 
 div.pep#fourthteen {
-    margin: 420px 0 0 355px;
+    margin: 460px 0 0 355px;
 }
 
 div.pep#fifthteen {
-    margin: 420px 0 0 475px;
+    margin: 460px 0 0 475px;
 }
 
 div.pep#sixteen {
-    margin: 530px 0 0 235px;
+    margin: 570px 0 0 235px;
 }
 
 div.pep#seventeen {
-    margin: 530px 0 0 355px;
+    margin: 570px 0 0 355px;
 }
 
 div.onion {
@@ -166,74 +203,75 @@ div.onion {
     border: solid 5px purple;
     border-color: purple transparent transparent transparent;
     border-radius: 50%/100px 100px 0 0;
+    animation: pulse 0.5s infinite;
 }
 
 div.onion#one {
-    margin: 137px 0 0 161px;
+    margin: 177px 0 0 161px;
     transform: rotate(-20deg);
 }
 
 div.onion#two {
-    margin: 150px 0 0 280px;
+    margin: 190px 0 0 280px;
 }
 
 div.onion#three{
-    margin: 137px 0 0 400px;
+    margin: 147px 0 0 400px;
     transform: rotate(20deg);
 }
 
 div.onion#four {
-    margin: 263px 0 0 100px;
+    margin: 303px 0 0 100px;
     transform: rotate(-20deg);
 }
 
 div.onion#five {
-    margin: 263px 0 0 220px;
+    margin: 303px 0 0 220px;
     transform: rotate(-20deg);
 }
 
 div.onion#six {
-    margin: 267px 0 0 340px;
+    margin: 307px 0 0 340px;
     transform: rotate(20deg);
 }
 
 div.onion#seven {
-    margin: 267px 0 0 460px;
+    margin: 307px 0 0 460px;
     transform: rotate(20deg);
 }
 
 div.onion#eight {
-    margin: 309px 0 0 125px;
+    margin: 349px 0 0 125px;
     transform: rotate(200deg);
 }
 
 div.onion#nine {
-    margin: 309px 0 0 240px;
+    margin: 349px 0 0 240px;
     transform: rotate(200deg);
 }
 
 div.onion#ten {
-    margin: 309px 0 0 315px;
+    margin: 349px 0 0 315px;
     transform: rotate(140deg);
 }
 
 div.onion#eleven {
-    margin:309px 0 0 430px;
+    margin: 349px 0 0 430px;
     transform: rotate(140deg);
 }
 
 div.onion#twelve {
-    margin: 422px 0 0 180px;
+    margin: 462px 0 0 180px;
     transform: rotate(200deg);
 }
 
 div.onion#thirteen {
-    margin: 422px 0 0 280px;
+    margin: 462px 0 0 280px;
     transform: rotate(180deg);
 }
 
 div.onion#fourteen {
-    margin: 422px 0 0 370px;
+    margin: 462px 0 0 370px;
     transform: rotate(140deg);
 }
 
@@ -245,54 +283,55 @@ div.onion#fourteen {
     box-shadow: 2px 2px 2px rgba(66, 132, 45, .9);
     margin: 250px 0 0 400px;
     z-index: 30;
+    animation: pulse 0.5s infinite;
 }
 
 div.green#one {
-    margin: 83px 0 0 325px;
+    margin: 123px 0 0 325px;
 }
 
 div.green#two {
-    margin: 222px 0 0 325px;
+    margin: 262px 0 0 325px;
 }
 
 div.green#three {
-    margin: 430px 0 0 325px;
+    margin: 470px 0 0 325px;
 }
 
 div.green#four {
-    margin: 570px 0 0 325px;
+    margin: 610px 0 0 325px;
 }
 
 div.green#five {
-    margin: 191px 0 0 205px;
+    margin: 231px 0 0 205px;
 }
 
 div.green#six {
-    margin: 420px 0 0 205px;
+    margin: 460px 0 0 205px;
 }
 
 div.green#seven {
-    margin: 191px 0 0 446px;
+    margin: 231px 0 0 446px;
 }
 
 div.green#eight {
-    margin: 420px 0 0 446px;
+    margin: 460px 0 0 446px;
 }
 
 div.green#nine {
-    margin: 225px 0 0 86px;
+    margin: 265px 0 0 86px;
 }
 
 div.green#ten {
-    margin: 400px 0 0 86px;
+    margin: 440px 0 0 86px;
 }
 
 div.green#eleven {
-    margin: 225px 0 0 576px;
+    margin: 265px 0 0 576px;
 }
 
 div.green#twelve {
-    margin: 400px 0 0 576px;
+    margin: 440px 0 0 576px;
 }
 
 div.olive {
@@ -302,110 +341,111 @@ div.olive {
     width: 15px;
     border-radius: 50%;
     border: 8px solid black;
+    animation: pulse 0.5s infinite;
 }
 
 div.olive#one {
-    margin: 133px 0 0 144px;
+    margin: 173px 0 0 144px;
 }
 
 div.olive#two {
-    margin: 284px 0 0 130px;
+    margin: 324px 0 0 130px;
 }
 
 div.olive#three {
-    margin: 354px 0 0 150px;
+    margin: 394px 0 0 150px;
 }
 
 div.olive#four {
-    margin: 514px 0 0 144px;
+    margin: 554px 0 0 144px;
 }
 
 div.olive#five {
-    margin: 90px 0 0 200px;
+    margin: 130px 0 0 200px;
 }
 
 div.olive#six {
-    margin: 155px 0 0 200px;
+    margin: 195px 0 0 200px;
 }
 
 div.olive#seven {
-    margin: 259px 0 0 200px;
+    margin: 299px 0 0 200px;
 }
 
 div.olive#eight {
-    margin: 385px 0 0 208px;
+    margin: 425px 0 0 208px;
 }
 
 div.olive#nine {
-    margin: 485px 0 0 208px;
+    margin: 525px 0 0 208px;
 }
 
 div.olive#ten {
-    margin: 559px 0 0 200px;
+    margin: 599px 0 0 200px;
 }
 
 div.olive#eleven {
-    margin: 354px 0 0 260px;
+    margin: 394px 0 0 260px;
 }
 
 div.olive#twelve {
-    margin: 284px 0 0 260px;
+    margin: 324px 0 0 260px;
 }
 
 div.olive#thirteen {
-    margin: 172px 0 0 320px;
+    margin: 212px 0 0 320px;
 }
 
 div.olive#fourteen {
-    margin: 390px 0 0 320px;
+    margin: 430px 0 0 320px;
 }
 
 div.olive#fifthteen {
-    margin: 90px 0 0 441px;
+    margin: 120px 0 0 441px;
 }
 
 div.olive#sixteen {
-    margin: 155px 0 0 441px;
+    margin: 195px 0 0 441px;
 }
 
 div.olive#seventeen {
-    margin: 259px 0 0 441px;
+    margin: 299px 0 0 441px;
 }
 
 div.olive#eightteen {
-    margin: 385px 0 0 441px;
+    margin: 425px 0 0 441px;
 }
 
 div.olive#nineteen {
-    margin: 485px 0 0 427px;
+    margin: 525px 0 0 427px;
 }
 
 div.olive#twenty {
-    margin: 559px 0 0 441px;
+    margin: 599px 0 0 441px;
 }
 
 div.olive#twentyone {
-    margin: 284px 0 0 380px;
+    margin: 324px 0 0 380px;
 }
 
 div.olive#twentytwo {
-    margin: 354px 0 0 380px;
+    margin: 394px 0 0 380px;
 }
 
 div.olive#twentythree {
-    margin: 133px 0 0 505px;
+    margin: 173px 0 0 505px;
 }
 
 div.olive#twentyfour {
-    margin: 284px 0 0 505px;
+    margin: 324px 0 0 505px;
 }
 
 div.olive#twentyfive {
-    margin: 354px 0 0 505px;
+    margin: 394px 0 0 505px;
 }
 
 div.olive#twentysix {
-    margin: 514px 0 0 505px;
+    margin: 554px 0 0 505px;
 }
 
 .mushroom {
@@ -413,7 +453,8 @@ div.olive#twentysix {
     width: 70px;
     height: 75px;
     z-index: 20;
-    margin: 200px 0 0 200px;
+    margin: 240px 0 0 240px;
+    animation: pulse 0.5s infinite;
 }
 
 .cap {
@@ -435,73 +476,23 @@ div.olive#twentysix {
 }
 
 div.mushroom#two {
-    margin: 400px 0 0 200px;
+    margin: 440px 0 0 200px;
 }
 
 div.mushroom#three {
-    margin: 325px 0 0 510px;
+    margin: 365px 0 0 510px;
 }
 
 div.mushroom#four {
-    margin: 118px 0 0 380px;
+    margin: 158px 0 0 380px;
 }
 
 div.mushroom#five {
-    margin: 225px 0 0 300px;
+    margin: 265px 0 0 300px;
 }
 
 div.mushroom#six {
-    margin: 500px 0 0 290px;
-}
-
-#pizzaMenu {
-    left: 0;
-}
-
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: flex;
-    width: 117px;
-    height: 34px;
-    margin: 0 7px 11px 0;
-    padding: 0 5px;
-}
-
-.switch::before {
-    content: "";
-}
-  
-  /* Hide default HTML checkbox */
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-  
-  /* The slider */
-.slider, .slider#red {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-  
-.slider:before, .slider#red::before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
+    margin: 540px 0 0 290px;
 }
   
 input:checked + .slider {
