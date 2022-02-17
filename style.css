@@ -1,0 +1,612 @@
+div#builder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#pizza {
+    margin: 15px auto;
+    width: 702px;
+    height: 702px;
+    overflow: hidden;
+    position: relative;
+}
+
+#cheese {
+    position: absolute;
+    width: 590px;
+    height: 590px;
+    border-radius: 50%;
+    background: #f3d255;
+    margin: 55px 0 0 55px;
+    z-index: 10;
+    box-shadow: inset 0 0 200px #d88e24;
+}
+
+div#pizza input, div#pizza label {
+    float:left;
+    cursor: pointer;
+}
+
+div.hide, div#white, div#red {
+    opacity: 0;
+}
+
+div.hide {
+    transition: opacity 0.5s ease-in-out;
+}
+
+div#pizza input {
+    margin: 0 10px 0 0;
+}
+
+div#pizza label {
+    margin: 0 5px 0 0;
+}
+
+div.sauce {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin: 50px 0 0 50px;
+    z-index: 10;
+    
+}
+
+#red{
+    background: red;
+    box-shadow: inset 0 0 200px #d82424;
+}
+
+#white {
+    background: whitesmoke;
+    box-shadow: inset 0 0 200px whitesmoke;
+}
+
+#crust {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background: #ab5f2b;
+    box-shadow: inset 0 0 40px #e5a53b;
+    border: 1px solid #ab5f2b;
+}
+
+.pep {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    border-radius: 60px;
+    background: #b3241c;
+    z-index: 15;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: inset 0 0 85px #711712;
+    border: 2px solid #871b15;
+    text-indent: -9999px;
+    color: #fff;
+}
+
+div.pep#one {
+    margin: 300px 0 0 60px;
+}
+
+div.pep#two {
+    margin: 300px 0 0 177px;
+}
+
+div.pep#three {
+    margin: 300px 0 0 295px;
+}
+
+div.pep#four {
+    margin: 300px 0 0 415px;
+}
+
+div.pep#five {
+    margin: 300px 0 0 540px;
+}
+
+div.pep#six {
+    margin: 180px 0 0 115px;
+}
+
+div.pep#seven {
+    margin: 180px 0 0 235px;
+}
+
+div.pep#eight {
+    margin: 180px 0 0 355px;
+}
+
+div.pep#nine {
+    margin: 180px 0 0 475px;
+}
+
+div.pep#ten {
+    margin: 70px 0 0 235px;
+}
+
+div.pep#eleven {
+    margin: 70px 0 0 355px;
+}
+
+div.pep#twelve {
+    margin: 420px 0 0 115px;
+}
+
+div.pep#thirteen {
+    margin: 420px 0 0 235px;
+}
+
+div.pep#fourthteen {
+    margin: 420px 0 0 355px;
+}
+
+div.pep#fifthteen {
+    margin: 420px 0 0 475px;
+}
+
+div.pep#sixteen {
+    margin: 530px 0 0 235px;
+}
+
+div.pep#seventeen {
+    margin: 530px 0 0 355px;
+}
+
+div.onion {
+    position: absolute;
+    z-index: 20;
+    width: 100px; 
+    height: 100px;  
+    border: solid 5px purple;
+    border-color: purple transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+}
+
+div.onion#one {
+    margin: 137px 0 0 161px;
+    transform: rotate(-20deg);
+}
+
+div.onion#two {
+    margin: 150px 0 0 280px;
+}
+
+div.onion#three{
+    margin: 137px 0 0 400px;
+    transform: rotate(20deg);
+}
+
+div.onion#four {
+    margin: 263px 0 0 100px;
+    transform: rotate(-20deg);
+}
+
+div.onion#five {
+    margin: 263px 0 0 220px;
+    transform: rotate(-20deg);
+}
+
+div.onion#six {
+    margin: 267px 0 0 340px;
+    transform: rotate(20deg);
+}
+
+div.onion#seven {
+    margin: 267px 0 0 460px;
+    transform: rotate(20deg);
+}
+
+div.onion#eight {
+    margin: 309px 0 0 125px;
+    transform: rotate(200deg);
+}
+
+div.onion#nine {
+    margin: 309px 0 0 240px;
+    transform: rotate(200deg);
+}
+
+div.onion#ten {
+    margin: 309px 0 0 315px;
+    transform: rotate(140deg);
+}
+
+div.onion#eleven {
+    margin:309px 0 0 430px;
+    transform: rotate(140deg);
+}
+
+div.onion#twelve {
+    margin: 422px 0 0 180px;
+    transform: rotate(200deg);
+}
+
+div.onion#thirteen {
+    margin: 422px 0 0 280px;
+    transform: rotate(180deg);
+}
+
+div.onion#fourteen {
+    margin: 422px 0 0 370px;
+    transform: rotate(140deg);
+}
+
+.green {
+    position: absolute;
+    width: 20px;
+    height: 55px;
+    background: #2f5e20;
+    box-shadow: 2px 2px 2px rgba(66, 132, 45, .9);
+    margin: 250px 0 0 400px;
+    z-index: 30;
+}
+
+div.green#one {
+    margin: 83px 0 0 325px;
+}
+
+div.green#two {
+    margin: 222px 0 0 325px;
+}
+
+div.green#three {
+    margin: 430px 0 0 325px;
+}
+
+div.green#four {
+    margin: 570px 0 0 325px;
+}
+
+div.green#five {
+    margin: 191px 0 0 205px;
+}
+
+div.green#six {
+    margin: 420px 0 0 205px;
+}
+
+div.green#seven {
+    margin: 191px 0 0 446px;
+}
+
+div.green#eight {
+    margin: 420px 0 0 446px;
+}
+
+div.green#nine {
+    margin: 225px 0 0 86px;
+}
+
+div.green#ten {
+    margin: 400px 0 0 86px;
+}
+
+div.green#eleven {
+    margin: 225px 0 0 576px;
+}
+
+div.green#twelve {
+    margin: 400px 0 0 576px;
+}
+
+div.olive {
+    position: absolute;
+    z-index: 35;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 8px solid black;
+}
+
+div.olive#one {
+    margin: 133px 0 0 144px;
+}
+
+div.olive#two {
+    margin: 284px 0 0 130px;
+}
+
+div.olive#three {
+    margin: 354px 0 0 150px;
+}
+
+div.olive#four {
+    margin: 514px 0 0 144px;
+}
+
+div.olive#five {
+    margin: 90px 0 0 200px;
+}
+
+div.olive#six {
+    margin: 155px 0 0 200px;
+}
+
+div.olive#seven {
+    margin: 259px 0 0 200px;
+}
+
+div.olive#eight {
+    margin: 385px 0 0 208px;
+}
+
+div.olive#nine {
+    margin: 485px 0 0 208px;
+}
+
+div.olive#ten {
+    margin: 559px 0 0 200px;
+}
+
+div.olive#eleven {
+    margin: 354px 0 0 260px;
+}
+
+div.olive#twelve {
+    margin: 284px 0 0 260px;
+}
+
+div.olive#thirteen {
+    margin: 172px 0 0 320px;
+}
+
+div.olive#fourteen {
+    margin: 390px 0 0 320px;
+}
+
+div.olive#fifthteen {
+    margin: 90px 0 0 441px;
+}
+
+div.olive#sixteen {
+    margin: 155px 0 0 441px;
+}
+
+div.olive#seventeen {
+    margin: 259px 0 0 441px;
+}
+
+div.olive#eightteen {
+    margin: 385px 0 0 441px;
+}
+
+div.olive#nineteen {
+    margin: 485px 0 0 427px;
+}
+
+div.olive#twenty {
+    margin: 559px 0 0 441px;
+}
+
+div.olive#twentyone {
+    margin: 284px 0 0 380px;
+}
+
+div.olive#twentytwo {
+    margin: 354px 0 0 380px;
+}
+
+div.olive#twentythree {
+    margin: 133px 0 0 505px;
+}
+
+div.olive#twentyfour {
+    margin: 284px 0 0 505px;
+}
+
+div.olive#twentyfive {
+    margin: 354px 0 0 505px;
+}
+
+div.olive#twentysix {
+    margin: 514px 0 0 505px;
+}
+
+.mushroom {
+    position: absolute;
+    width: 70px;
+    height: 75px;
+    z-index: 20;
+    margin: 200px 0 0 200px;
+}
+
+.cap {
+    width: 70px;
+    height: 35px;
+    background: #b49989;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: 20;
+    position: relative;
+}
+
+.stem {
+    width: 35px;
+    height: 35px;
+    background: #c3b5ae;
+    margin-left: 17px;
+    margin-top: -10px;
+}
+
+div.mushroom#two {
+    margin: 400px 0 0 200px;
+}
+
+div.mushroom#three {
+    margin: 325px 0 0 510px;
+}
+
+div.mushroom#four {
+    margin: 118px 0 0 380px;
+}
+
+div.mushroom#five {
+    margin: 225px 0 0 300px;
+}
+
+div.mushroom#six {
+    margin: 500px 0 0 290px;
+}
+
+#pizzaMenu {
+    left: 0;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: flex;
+    width: 117px;
+    height: 34px;
+    margin: 0 7px 11px 0;
+    padding: 0 5px;
+}
+
+.switch::before {
+    content: "";
+}
+  
+  /* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+  /* The slider */
+.slider, .slider#red {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before, .slider#red::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+      display:block;
+      background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider#marinara, input:checked + .slider#pep {
+    display:block;
+    background-color: red;
+}
+
+input:focus + .slider#marinara, input:focus + .slider#pep {
+  box-shadow: 0 0 1px red;
+}
+
+input#test:checked + div{
+    opacity: 1;
+}
+
+input#testtwo:checked + div{
+    opacity: 1;
+}
+
+input#testthree:checked + div{
+    opacity: 1;
+}
+
+input#testfour:checked + div {
+    opacity: 1;
+}
+
+input#testfive:checked + div {
+    opacity: 1;
+}
+
+input#marinarainput:checked + div {
+    opacity:1;
+}
+
+input#alfredoinput:checked + div {
+    opacity:1;
+}
+
+input:checked + .slider#pepper {
+    display:block;
+    background-color: green;
+}
+
+input:focus + .slider#pepper {
+  box-shadow: 0 0 1px green;
+}
+
+input:checked + .slider#onion {
+    display:block;
+    background-color: purple;
+}
+
+input:focus + .slider#onion {
+  box-shadow: 0 0 1px purple;
+}
+
+input:checked + .slider#olive {
+    display:block;
+    background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider#mush {
+    display:block;
+    background-color: #b49989;
+}
+
+input:focus + .slider#mush {
+  box-shadow: 0 0 1px #b49989;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(84px);
+    -ms-transform: translateX(84px);
+    transform: translateX(84px);
+}
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.topping {
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
