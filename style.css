@@ -274,7 +274,8 @@ div#pizza input {
 
 div#pizza label {
     margin: 0 5px 0 0;
-    font-style: bold;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 div.sauce {
@@ -342,71 +343,71 @@ div.sauce {
     }
   }
 
-div.pep#one {
+div.pep#pone {
     margin: 340px 0 0 60px;
 }
 
-div.pep#two {
+div.pep#ptwo {
     margin: 340px 0 0 177px;
 }
 
-div.pep#three {
+div.pep#pthree {
     margin: 340px 0 0 295px;
 }
 
-div.pep#four {
+div.pep#pfour {
     margin: 340px 0 0 415px;
 }
 
-div.pep#five {
+div.pep#pfive {
     margin: 340px 0 0 540px;
 }
 
-div.pep#six {
+div.pep#psix {
     margin: 220px 0 0 115px;
 }
 
-div.pep#seven {
+div.pep#pseven {
     margin: 220px 0 0 235px;
 }
 
-div.pep#eight {
+div.pep#peight {
     margin: 220px 0 0 355px;
 }
 
-div.pep#nine {
+div.pep#pnine {
     margin: 220px 0 0 475px;
 }
 
-div.pep#ten {
+div.pep#pten {
     margin: 110px 0 0 235px;
 }
 
-div.pep#eleven {
+div.pep#peleven {
     margin: 110px 0 0 355px;
 }
 
-div.pep#twelve {
+div.pep#ptwelve {
     margin: 460px 0 0 115px;
 }
 
-div.pep#thirteen {
+div.pep#pthirteen {
     margin: 460px 0 0 235px;
 }
 
-div.pep#fourthteen {
+div.pep#pfourthteen {
     margin: 460px 0 0 355px;
 }
 
-div.pep#fifthteen {
+div.pep#pfifthteen {
     margin: 460px 0 0 475px;
 }
 
-div.pep#sixteen {
+div.pep#psixteen {
     margin: 570px 0 0 235px;
 }
 
-div.pep#seventeen {
+div.pep#pseventeen {
     margin: 570px 0 0 355px;
 }
 
@@ -421,71 +422,71 @@ div.onion {
     animation: pulse 0.5s infinite;
 }
 
-div.onion#one {
+div.onion#oone {
     margin: 177px 0 0 161px;
     transform: rotate(-20deg);
 }
 
-div.onion#two {
+div.onion#otwo {
     margin: 190px 0 0 280px;
 }
 
-div.onion#three{
+div.onion#othree{
     margin: 147px 0 0 400px;
     transform: rotate(20deg);
 }
 
-div.onion#four {
+div.onion#ofour {
     margin: 303px 0 0 100px;
     transform: rotate(-20deg);
 }
 
-div.onion#five {
+div.onion#ofive {
     margin: 303px 0 0 220px;
     transform: rotate(-20deg);
 }
 
-div.onion#six {
+div.onion#osix {
     margin: 307px 0 0 340px;
     transform: rotate(20deg);
 }
 
-div.onion#seven {
+div.onion#oseven {
     margin: 307px 0 0 460px;
     transform: rotate(20deg);
 }
 
-div.onion#eight {
+div.onion#oeight {
     margin: 349px 0 0 125px;
     transform: rotate(200deg);
 }
 
-div.onion#nine {
+div.onion#onine {
     margin: 349px 0 0 240px;
     transform: rotate(200deg);
 }
 
-div.onion#ten {
+div.onion#oten {
     margin: 349px 0 0 315px;
     transform: rotate(140deg);
 }
 
-div.onion#eleven {
+div.onion#oeleven {
     margin: 349px 0 0 430px;
     transform: rotate(140deg);
 }
 
-div.onion#twelve {
+div.onion#otwelve {
     margin: 462px 0 0 180px;
     transform: rotate(200deg);
 }
 
-div.onion#thirteen {
+div.onion#othirteen {
     margin: 462px 0 0 280px;
     transform: rotate(180deg);
 }
 
-div.onion#fourteen {
+div.onion#ofourteen {
     margin: 462px 0 0 370px;
     transform: rotate(140deg);
 }
@@ -501,51 +502,51 @@ div.onion#fourteen {
     animation: pulse 0.5s infinite;
 }
 
-div.green#one {
+div.green#gone {
     margin: 123px 0 0 325px;
 }
 
-div.green#two {
+div.green#gtwo {
     margin: 262px 0 0 325px;
 }
 
-div.green#three {
+div.green#gthree {
     margin: 470px 0 0 325px;
 }
 
-div.green#four {
+div.green#gfour {
     margin: 610px 0 0 325px;
 }
 
-div.green#five {
+div.green#gfive {
     margin: 231px 0 0 205px;
 }
 
-div.green#six {
+div.green#gsix {
     margin: 460px 0 0 205px;
 }
 
-div.green#seven {
+div.green#gseven {
     margin: 231px 0 0 446px;
 }
 
-div.green#eight {
+div.green#geight {
     margin: 460px 0 0 446px;
 }
 
-div.green#nine {
+div.green#gnine {
     margin: 265px 0 0 86px;
 }
 
-div.green#ten {
+div.green#gten {
     margin: 440px 0 0 86px;
 }
 
-div.green#eleven {
+div.green#geleven {
     margin: 265px 0 0 576px;
 }
 
-div.green#twelve {
+div.green#gtwelve {
     margin: 440px 0 0 576px;
 }
 
@@ -559,107 +560,107 @@ div.olive {
     animation: pulse 0.5s infinite;
 }
 
-div.olive#one {
+div.olive#olone {
     margin: 173px 0 0 144px;
 }
 
-div.olive#two {
+div.olive#oltwo {
     margin: 324px 0 0 130px;
 }
 
-div.olive#three {
+div.olive#olthree {
     margin: 394px 0 0 150px;
 }
 
-div.olive#four {
+div.olive#olfour {
     margin: 554px 0 0 144px;
 }
 
-div.olive#five {
+div.olive#olfive {
     margin: 130px 0 0 200px;
 }
 
-div.olive#six {
+div.olive#olsix {
     margin: 195px 0 0 200px;
 }
 
-div.olive#seven {
+div.olive#olseven {
     margin: 299px 0 0 200px;
 }
 
-div.olive#eight {
+div.olive#oleight {
     margin: 425px 0 0 208px;
 }
 
-div.olive#nine {
+div.olive#olnine {
     margin: 525px 0 0 208px;
 }
 
-div.olive#ten {
+div.olive#olten {
     margin: 599px 0 0 200px;
 }
 
-div.olive#eleven {
+div.olive#oleleven {
     margin: 394px 0 0 260px;
 }
 
-div.olive#twelve {
+div.olive#oltwelve {
     margin: 324px 0 0 260px;
 }
 
-div.olive#thirteen {
+div.olive#olthirteen {
     margin: 212px 0 0 320px;
 }
 
-div.olive#fourteen {
+div.olive#olfourteen {
     margin: 430px 0 0 320px;
 }
 
-div.olive#fifthteen {
+div.olive#olfifthteen {
     margin: 120px 0 0 441px;
 }
 
-div.olive#sixteen {
+div.olive#olsixteen {
     margin: 195px 0 0 441px;
 }
 
-div.olive#seventeen {
+div.olive#olseventeen {
     margin: 299px 0 0 441px;
 }
 
-div.olive#eightteen {
+div.olive#oleightteen {
     margin: 425px 0 0 441px;
 }
 
-div.olive#nineteen {
+div.olive#olnineteen {
     margin: 525px 0 0 427px;
 }
 
-div.olive#twenty {
+div.olive#oltwenty {
     margin: 599px 0 0 441px;
 }
 
-div.olive#twentyone {
+div.olive#oltwentyone {
     margin: 324px 0 0 380px;
 }
 
-div.olive#twentytwo {
+div.olive#oltwentytwo {
     margin: 394px 0 0 380px;
 }
 
-div.olive#twentythree {
+div.olive#oltwentythree {
     margin: 173px 0 0 505px;
 }
 
-div.olive#twentyfour {
+div.olive#oltwentyfour {
     margin: 324px 0 0 505px;
 }
 
-div.olive#twentyfive {
+div.olive#oltwentyfive {
     margin: 394px 0 0 505px;
 }
 
-div.olive#twentysix {
+div.olive#oltwentysix {
     margin: 554px 0 0 505px;
 }
 
@@ -690,43 +691,25 @@ div.olive#twentysix {
     margin-top: -10px;
 }
 
-div.mushroom#two {
+div.mushroom#mtwo {
     margin: 440px 0 0 200px;
 }
 
-div.mushroom#three {
+div.mushroom#mthree {
     margin: 365px 0 0 510px;
 }
 
-div.mushroom#four {
+div.mushroom#mfour {
     margin: 158px 0 0 380px;
 }
 
-div.mushroom#five {
+div.mushroom#mfive {
     margin: 265px 0 0 300px;
 }
 
-div.mushroom#six {
+div.mushroom#msix {
     margin: 540px 0 0 290px;
-}
-  
-input:checked + .slider {
-      display:block;
-      background-color: #2196F3;
-}
-  
-input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider#marinara, input:checked + .slider#pep {
-    display:block;
-    background-color: red;
-}
-
-input:focus + .slider#marinara, input:focus + .slider#pep {
-  box-shadow: 0 0 1px red;
-}
+} 
 
 input#test:checked + div{
     opacity: 1;
@@ -756,63 +739,92 @@ input#alfredoinput:checked + div {
     opacity:1;
 }
 
-input:checked + .slider#pepper {
-    display:block;
-    background-color: green;
+div#checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
 }
 
-input:focus + .slider#pepper {
-  box-shadow: 0 0 1px green;
+div#checkout a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #FF355E;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    background: #ffffffe6;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    overflow: hidden;
+    transition: 0.2s;
 }
 
-input:checked + .slider#onion {
-    display:block;
-    background-color: purple;
-}
-
-input:focus + .slider#onion {
-  box-shadow: 0 0 1px purple;
-}
-
-input:checked + .slider#olive {
-    display:block;
-    background-color: black;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px black;
-}
-
-input:checked + .slider#mush {
-    display:block;
-    background-color: #b49989;
-}
-
-input:focus + .slider#mush {
-  box-shadow: 0 0 1px #b49989;
-}
-
-input:checked + .slider:before {
-    -webkit-transform: translateX(84px);
-    -ms-transform: translateX(84px);
-    transform: translateX(84px);
-}
-  
-  /* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
-  
-.slider.round:before {
-    border-radius: 50%;
-}
-
-.topping {
+div#checkout a:hover {
     color: white;
+    background: #FF355E;
+    box-shadow: 0 0 10px #FF355E, 0 0 40px #FF355E, 0 0 80px #FF355E;
+    transition-delay: 1s;
+}
+
+div#checkout a span {
     position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    font-size: 10px;
-    font-family: Verdana, sans-serif;
+    display: block;
+}
+
+div#checkout a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #FF355E);
+}
+
+div#checkout a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+div#checkout a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, transparent, #FF355E);
+}
+
+div#checkout a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+div#checkout a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #FF355E);
+}
+
+div#checkout a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+div#checkout a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #FF355E);
+}
+
+div#checkout a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
 }
