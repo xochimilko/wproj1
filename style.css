@@ -33,7 +33,7 @@ img#neon {
 }
 #aboutLink:hover{
     animation:aboAnim 5s;
-    animation-iteration-count: infinte;
+    animation-iteration-count: infinite;
 }
 @keyframes aboAnim{
     0% {transform:translateY(0px);}
