@@ -25,7 +25,81 @@ img#neon {
         transform: rotate(359deg);
     }
 }
+#homeLink{
+    transition: opacity 500ms linear;
+}
+#homeLink:hover{
+    opacity: 0.2;
+}
+#aboutLink:hover{
+    animation:aboAnim 5s;
+    animation-iteration-count: infinte;
+}
+@keyframes aboAnim{
+    0% {transform:translateY(0px);}
+    25% {transform:translateY(10px);}
+    50% {transform:translateY(-10px);}
+    75% {transform:translateY(10px);}
+    100% {transform:translateY(0px);}
+}
+#contactLink{
+    transition: transform 500ms ease-in-out;
+}
+#contactLink:hover{
+    transform: rotate(20deg) translateX(200px);
+}
+@keyframes shake{
+    0% {transform:rotate(0deg); opacity:1;}
+    10% {transform:rotate(20deg); opacity: 0.2;}
+    30% {transform:rotate(-20deg); opacity: 1;}
+    50% {transform:rotate(10deg); opacity: 0.2}
+    70% {transform:rotate(-40deg); opacity: 1;}
+    90%{transform:rotate(20deg); opacity: 0.2}
+    100%{transform:rotate(0deg); opacity: 1;}
+}
+#orderLink:hover{
+    animation:shake 5s;
+    animation-iteration-count:infinite;
+}
+@keyframes texter{
+    0%{color:white;}
+    20%{color:#ab5f2b;}
+    
+   
+    80%{color:blue;}
+    100%{color:white;}
+}
+.textClass{
+    background: rgba(29, 33, 97, 0.5);
+    font-size: 2em;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0 0 20px #FF9966;
+    padding: 0 0 50px 0;
+    z-index: 20;
 
+    animation:aboAnim 20s;
+    animation-iteration-count: infinte;
+}
+.textClass:hover{
+    animation:texter 10s ease,aboAnim 20s;
+}
+.textClass:after {
+    content: attr(data-text);
+    position: absolute;
+    z-index: -1;
+    color: #FF9966;
+    filter: blur(15px);
+}
+
+.textClass::before {
+    content: '';
+    position: absolute;
+    background: #ff9933;
+    z-index: -2;
+    opacity: .5;
+}
 header {
     text-transform: uppercase;
     text-align: center;
