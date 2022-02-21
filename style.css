@@ -46,7 +46,7 @@ img#neon {
     transition: transform 500ms ease-in-out;
 }
 #contactLink:hover{
-    transform: rotate(20deg) translateX(200px);
+    transform: rotate(20deg) scale(1.5);
 }
 @keyframes shake{
     0% {transform:rotate(0deg); opacity:1;}
@@ -64,8 +64,6 @@ img#neon {
 @keyframes texter{
     0%{color:white;}
     20%{color:#ab5f2b;}
-    
-   
     80%{color:blue;}
     100%{color:white;}
 }
@@ -80,7 +78,6 @@ img#neon {
     z-index: 20;
 
     animation:aboAnim 20s;
-    animation-iteration-count: infinte;
 }
 .textClass:hover{
     animation:texter 10s ease,aboAnim 20s;
